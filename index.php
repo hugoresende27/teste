@@ -4,6 +4,7 @@ require_once '../../functions.php';
 session_start();
 
 //TESTES GIT HUB
+////morechangesas
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -20,7 +21,17 @@ $path = 'http://feed.crmhcpro.pt/xml/bpi/index.php';
 $xml = new XMLWriter();
 
 $companies_to_export = getCompaniesToExportBPI('bpi', $l);
-
+//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas
 if ($companies_to_export) {
 
 	foreach ($companies_to_export as $company) {
@@ -71,7 +82,16 @@ if ($companies_to_export) {
 						$xml->endElement();
 					// end InformacaoParceiro element
 					$xml->endElement();
-
+//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas//TESTES GIT HUB
+////morechangesas
 					// start Imoveis element
 					$xml->startElement('Imoveis');
 
