@@ -5,6 +5,8 @@ session_start();
 
 //agr edicao do github
 
+//sem ser há bruta, faz um fetch e merge 
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
