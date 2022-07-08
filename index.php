@@ -3,8 +3,7 @@ require_once '../../functions.php';
 
 session_start();
 
-//TESTES GIT HUB
-////morechangesas
+//agr edicao do github
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
